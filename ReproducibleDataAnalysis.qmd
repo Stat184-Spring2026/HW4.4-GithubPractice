@@ -104,8 +104,8 @@ airports_clean |>
   geom_line() +
   geom_point() +
   scale_color_manual(values = c("ATL" = "darkmagenta", "DFW" = "orchid",
-                                 "DXB" = "violetred", "FRA" = "deeppink",
-                                 "HND" = "hotpink", "PKX" = "pink" )) +
+                                "DXB" = "violetred", "FRA" = "deeppink",
+                                "HND" = "hotpink", "PKX" = "pink")) +
   theme_classic(base_family = "serif") + labs(x = "Year",
                                               y = "Passengers",
                                               color = "Airport Code")
@@ -158,9 +158,9 @@ make_plot <- function(n) {
       fun = dbeta,
       args = list(shape1 = 2, shape2 = 2),
       xlim = c(0, 1)
-      ) +
-    scale_color_manual(values = c( "on or below" = "pink",
-                                   "above" = "hotpink"
+   ) +
+    scale_color_manual(values = c("on or below" = "pink",
+                                  "above" = "hotpink"
     )) +
     labs(
       title = paste("n =", n),
@@ -234,9 +234,9 @@ Verbs: load, reshape, rename, combine, label, group, organize, plot, compare
 
 Prompt: Copy from plan above
 
-![ChatGPT Plan Informed-Response (Part 1)](images/clipboard-2275312274.png)
+![ChatGPT Plan Informed-Response (Part 1)](images/chatResponse1.png)
 
-![ChatGPT Plan Informed-Response (Part 2)](images/clipboard-1536372616.png)
+![ChatGPT Plan Informed-Response (Part 2)](images/chatResponse2.png)
 
 Prompt: What is your version information?
 
@@ -256,7 +256,7 @@ If you need to write it for an assignment, you can say something like:
 
 Prompt: Create a data visualization for these data. Calcium.csv
 
-![ChatGPT Generic Response Plot](images/clipboard-2315981929.png)
+![ChatGPT Generic Response Plot](images/chatgptPlot.png)
 
 I created a visualization showing the average value of each column in your dataset.
 
