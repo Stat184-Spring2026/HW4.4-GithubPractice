@@ -1,0 +1,36 @@
+# Project Plan Document
+
+## Project Plan
+
+### Goals
+- Fix any formatting errors
+- Make sure the PDF renders without issues
+
+### Needs
+- My Quarto file and images  
+- R and required packages  
+- lintr to check code style  
+
+### Steps
+- Run lintr and fix any code style issues  
+- Fix image paths so they use relative paths instead of local ones  
+- Move images into the images folder  
+- Re-render the Quarto file  
+- Check that the PDF compiles without errors  
+
+## Repo Setup and Maintenance Plan
+
+### Goals
+- Keep the repo organized  
+- Track changes I made to fix issues
+
+### Needs
+- Clear file structure  
+- Proper commit messages  
+- Issues to track tasks  
+
+### Steps
+- Create issues for fixing lintr errors and updating the PDF  
+- Commit changes with clear messages  
+- Link commits to issues using "Closes #"
+- Use a pull request to finalize changes
